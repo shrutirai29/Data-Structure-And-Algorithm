@@ -1,0 +1,6 @@
+#Q.1 Find the area of square
+
+side = float(input("Enter the length of the side: "))
+area = side * side
+
+print("The area of the square is:", area)
