@@ -1,0 +1,9 @@
+#Q6 Calculate the simple Intrest
+principle = float(input("Enter the principal amount: "))
+rate = float(input("Enter the rate of interest: "))
+time = float(input("Enter the time in years: "))
+
+simpleIntrest = (principle * rate * time) / 100
+
+print("The simple intrest is:", simpleIntrest)
+print("The total amount after", time, "years is:", principle + simpleIntrest)
