@@ -1,0 +1,8 @@
+#Q4 Sum of Numbers from 1 to N
+end = int(input("Enter the number till which you want to find the sum of numbers: "))
+
+sum = 0
+for i in range(1, end + 1):
+    sum += i
+
+print("The sum of numbers from 1 to", end, "is:", sum)
