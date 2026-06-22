@@ -1,0 +1,12 @@
+#print
+# * * * * * 
+# * * * * * 
+# * * * * * 
+# * * * * * 
+# * * * * * 
+height = int(input("Enter the height:"))
+
+for i in range(0, height):
+    for j in range(0, height):
+        print("*", end=" ")
+    print()
