@@ -1,4 +1,4 @@
-# Q3 Is the number oedd or even
+# Q3 Is the number entered is odd or even
 num = float(input("Enter a number: "))
 
 if num % 2 == 0:
