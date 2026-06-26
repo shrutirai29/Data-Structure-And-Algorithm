@@ -1,4 +1,4 @@
-#find if a character is uppercase or lowercase
+#find if a character is uppercase or lowercase from the user data
 
 data = input("Enter your character: ")
 
