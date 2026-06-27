@@ -1,0 +1,12 @@
+def minimum(num1: int, num2: int) -> int:
+    if num1 < num2:
+        return num1
+    else:
+        return num2
+
+num1 = int(input("Enter 1st number: "))
+num2 = int(input("Enter 2nd number: "))
+
+result = minimum(num1, num2)
+
+print("The minimum number is:", minimum)
