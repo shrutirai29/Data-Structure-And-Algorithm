@@ -1,4 +1,4 @@
-#Q8 Calculate factorial of number N
+#Q8 Calculate factorial of number N given by the user
 num = int(input("Enter a number: "))
 
 factorial = 1
