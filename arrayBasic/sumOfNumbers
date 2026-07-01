@@ -1,0 +1,8 @@
+#find sum of all elemets of an array 
+nums = [int(x) for x in input("Enter the number (seperate them by space): ").split()]
+
+sum = 0
+for num in nums:
+    sum += num
+
+print("Total sum is: ", sum)
