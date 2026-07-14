@@ -1,0 +1,16 @@
+# Find the smallest element in the arror and find the index of that smallest element also
+
+nums = int(input("Enter the number of elements in the array: "))
+
+for i in range(1, nums+1):
+    num = int(input("Enter the number: "))
+    if i == 1:
+        smallest = num
+        index = i
+    else:
+        if num < smallest:
+            smallest = num
+            index = i
+
+print("The smallest number in the array is:", smallest)
+print("And index of smallest number is: ", index)
