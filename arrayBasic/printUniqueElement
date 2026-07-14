@@ -1,0 +1,19 @@
+#print all unique values of an array
+
+num = int(input("Enter the number of elements in the array: "))
+
+arr = []
+
+for i in range(1, num+1):
+    num = int(input("Enter the number: "))
+    arr.append(num)
+
+print("The original array is:", arr)
+
+unique = []
+
+for i in arr:
+    if i not in unique:
+        unique.append(i)
+
+print("The unique elements in the array are:", unique)
