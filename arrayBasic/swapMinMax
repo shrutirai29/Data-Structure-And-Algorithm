@@ -1,0 +1,28 @@
+#Swap min and max element in an array
+
+nums = int(input("Enter the number of elements in the array: "))
+
+arr = []
+
+for i in range(nums):
+    num = int(input("Enter the number: "))
+    arr.append(num)
+
+print("Current array is:", arr)
+
+minimum = arr[0]
+maximum = arr[0]
+
+for i in range(nums):
+    if arr[i] < minimum:
+        minimum = arr[i]
+    if arr[i] > maximum:
+        maximum = arr[i]
+
+indexMin = arr.index(minimum)
+indexMax = arr.index(maximum)
+
+# Swap the minimum and maximum elements
+arr[indexMin], arr[indexMax] = arr[indexMax], arr[indexMin]
+
+print("The new array is:", arr)
